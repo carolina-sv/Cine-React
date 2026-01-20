@@ -1,16 +1,37 @@
-# React + Vite
+# 🎬 CineReact
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma interface moderna e responsiva para buscar e visualizar informações sobre filmes, utilizando a poderosa API do TMDB (The Movie Database). Desenvolvido como projeto de estudo em React JS.
 
-Currently, two official plugins are available:
+## 📱 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Catálogo de Melhores Filmes:** Exibição dos filmes mais bem avaliados na página inicial.
+- **Busca em Tempo Real:** Pesquise por qualquer filme disponível no banco de dados.
+- **Página de Detalhes:** Consulte sinopse, orçamento, receita e duração de cada filme.
+- **Design Responsivo:** Adaptável para diferentes tamanhos de tela.
 
-## React Compiler
+## 🛠️ Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** (Hooks: useState, useEffect)
+- **Vite** (Build tool rápida)
+- **React Router Dom** (Navegação entre páginas)
+- **CSS3** (Estilização global e variáveis)
+- **TMDB API** (Integração de dados externos)
 
-## Expanding the ESLint configuration
+## ⚙️ Como Rodar o Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Para rodar este projeto na sua máquina, siga os passos abaixo:
+
+### 1. Pré-requisitos
+Certifique-se de ter o **Node.js** instalado em sua máquina.
+
+### 2. Clonar e Instalar
+
+```bash
+# Clone o repositório (ou baixe os arquivos)
+git clone (https://github.com/carolina-sv/Cine-React.git)
+
+# Entre na pasta do projeto
+cd cine-react
+
+# Instale as dependências
+npm install
